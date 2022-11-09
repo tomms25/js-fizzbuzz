@@ -18,11 +18,12 @@ h1{
 }
 
 
-.container{
+#container{
     margin: 100px auto;
     width: 70%;
     display: flex;
-    flex-wrap:
+    flex-wrap: wrap;
+    gap: 25px 25px;
 }
 
 

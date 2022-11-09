@@ -36,7 +36,7 @@ for (let i = 1; i <= 100; i++){
     // Il programma deve stampare Buzz per il multipli di 5
 
     else if (i%5 == 0) {
-        console.log(Buzz);
+        console.log("Buzz");
         container.innerHTML += '<div class="box buzz">Buzz</div>';
     }
 
@@ -45,7 +45,8 @@ for (let i = 1; i <= 100; i++){
 
     else {
         console.log (i); // Scrive i numeri in console
-        container.innerHTML += ;
+        container.innerHTML += '<div class="box number">' + i + '</div>';
+       
     }
 
     
