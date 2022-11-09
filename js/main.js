@@ -12,5 +12,33 @@ let container = document.getElementById("container");
 
 
 for (let i = 1; i <= 100; i++){
+    console.log(i)
+
     
+    // Il programma deve stampare FizzBuzz per il multipli di di 3 e 5
+    if (i%15 == 0) {
+        console.log(FizzBuzz)
+        // Ora devo collegarlo con L'HTML in modo da vederlo in pagina
+        container.innerHTML
+    }
+    // Oppure if((i%3 == 0) && (i%5 == 0)){}??
+
+    
+
+    // Il programma deve stampare Fizz per i multipli di 3
+    else if (i%3 == 0) {
+        console.log(Fizz)
+    }
+
+
+
+    // Il programma deve stampare Buzz per il multipli di 5
+
+    else if (i%5 == 0) {
+        console.log(Buzz)
+    }
+
+
+    
+
 }
