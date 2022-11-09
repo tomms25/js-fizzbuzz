@@ -26,3 +26,23 @@ h1{
 }
 
 
+.box {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1389b2;
+  }
+
+  .fizzbuzz {
+    background-color: #f0466f;
+  }
+
+  .fizz{
+    background-color: #0cd6a1;
+  }
+
+  .buzz{
+    background-color: #ffd166;
+  }
